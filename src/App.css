@@ -1,0 +1,391 @@
+@font-face {
+  font-family:'Playball';
+  src :url("font/Playball.ttf");
+}
+.Playball{
+  font-family:'Playball' !important;
+}
+
+@font-face {
+  font-family:'DancingScript';
+  src :url("font/DancingScript.ttf");
+}
+.DancingScript{
+  font-family:'DancingScript' !important;
+}
+
+@font-face {
+  font-family:'sarabun';
+  src :url("font/sarabun.ttf");
+}
+.sarabun{
+  font-family:'sarabun' !important;
+}
+
+
+body{
+  font-family:'sarabun' !important;
+  background:#566069 ;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* blue tone */
+.bg-blue{
+  background: #3981bb !important;
+  color:#ffffff;
+}
+.bg-sea{
+  background: #0177D9 !important;
+  color:#ffffff;
+}
+.bg-sky{
+  background: #63C5DA !important;
+  color:#ffffff;
+}
+.bg-navy{
+  background: #3282b8 !important;
+  color:#ffffff !important;
+}
+.bg-lightsky{
+  background: #C2F0FC !important;
+}
+.bg-cobalt{
+  background: #1338BE !important;
+  color:#ffffff;
+}
+.bg-azure{
+  background: #1520A6 !important;
+  color:#ffffff;
+}
+.bg-cerulen{
+  background: #0492C2 !important;
+  color:#ffffff;
+}
+.bg-sapphire{
+  background: #52B2BF !important;
+  /* color:#ffffff; */
+}
+.bg-admiral{
+  background: #051094 !important;
+  color:#ffffff;
+}
+.bg-aegean{
+  background: #1F456E !important;
+  color:#ffffff;
+}
+.bg-lapis{
+  background: #2857c2 !important;
+  color:#ffffff;
+}
+.bg-ocean{
+  background:#7ebdb4;
+  color:#ffffff;
+}
+/* orange tone */
+.bg-carrot{
+  background:#f07b3f;
+  color:#ffffff;
+}
+.bg-apricot{
+  background:#ED820E;
+  color:#ffffff;
+}
+.bg-honey{
+  background:#EC9706;
+  color:#ffffff;
+}
+.bg-tiger{
+  background:#FC6A03;
+  color:#ffffff;
+}
+.bg-merigold{
+  background:#FCAE1E;
+  color:#ffffff;
+}
+.bg-custard{
+  background:#f5b971;
+  /* color:#ffffff; */
+}
+/* green tone */
+.bg-green{
+  background: #3CB043;
+  color: #ffffff;
+}
+.bg-olive{
+  background: #98BF64;
+  color: #ffffff;
+}
+.bg-jade{
+  background:#23A99F !important;
+  color: #ffffff;
+}
+.bg-moss{
+  background:#cedebd !important;
+}
+.bg-forest{
+  background:#639a67;
+  color:#ffffff;
+}
+.bg-fern{
+  background:#5DBB63;
+  color:#ffffff;
+}
+.bg-emerald{
+  background:#028A0F;
+  color:#ffffff;
+}
+.bg-pear{
+  background:#74B72E;
+  color:#ffffff;
+}
+.bg-shamrock{
+  background:#03AC13;
+  color:#ffffff;
+}
+.bg-pickle{
+  background:#597D35;
+  color:#ffffff;
+}
+.bg-basil{
+  background:#32612D;
+  color:#ffffff;
+}
+.bg-crocodile{
+  background:#607D3B;
+  color:#ffffff;
+}
+.bg-mint{
+  background:#99EDC3;
+  color:#ffffff;
+}
+/* purple tone */
+.bg-violet{
+  background:#7f78d2;
+  color:#ffffff;
+}
+.bg-purple{
+  background:#A32CC4;
+  color:#ffffff;
+}
+.bg-grape{
+  background:#c3aed6;
+  /* color:#ffffff; */
+}
+.bg-lavender{
+  background:#E39FF6;
+  color:#ffffff;
+}
+.bg-lilac{
+  background:#B65FCF;
+  color:#ffffff;
+}
+.bg-periwinkle{
+  background:#BE93D4;
+  color:#ffffff;
+}
+.bg-iris{
+  background:#9867C5;
+  color:#ffffff;
+}
+.bg-orchid{
+  background:#AF69EF;
+  color:#ffffff;
+}
+.bg-amethyst{
+  background:#A45EE5;
+  color:#ffffff;
+}
+/* red tone */
+.bg-red{
+  background:#D0312D;
+  color:#ffffff;
+}
+.bg-cheery{
+  background:#990F02;
+  color:#ffffff;
+}
+.bg-rose{
+  background:#E3242B;
+  color:#ffffff;
+}
+.bg-crimson{
+  background:#B90E0A;
+  color:#ffffff;
+}
+.bg-ruby{
+  background:#900603;
+  color:#ffffff;
+}
+.bg-scarlet{
+  background:#900D09;
+  color:#ffffff;
+}
+.bg-apple{
+  background:#A91B0D;
+  color:#ffffff;
+}
+.bg-lipstick{
+  background:#9B1003;
+  color:#ffffff;
+}
+.bg-blood{
+  background:#710C04;
+  color:#ffffff;
+}
+/* pink tone */
+.bg-pink{
+  background:#F699CD;
+  color:#ffffff;
+}
+.bg-pinkrose{
+  background:#FC94AF;
+  color:#ffffff;
+}
+.bg-punch{
+  background:#F25278;
+  color:#ffffff;
+}
+.bg-flamingo{
+  background:#FDA4BA;
+  color:#ffffff;
+}
+.bg-rouge{
+  background:#F26B8A;
+  color:#ffffff;
+}
+.bg-coral{
+  background:#FE7D6A;
+  color:#ffffff;
+}
+.bg-peach{
+  background:#FC9483;
+  color:#ffffff;
+}
+.bg-strawberry{
+  background:#FC4C4E;
+  color:#ffffff;
+}
+.bg-taffy{
+  background:#FA86C4;
+  color:#ffffff;
+}
+.bg-crape{
+  background:#F2B8C6;
+  color:#ffffff;
+}
+.bg-salmon{
+  background:#FDAB9F;
+  color:#ffffff;
+}
+/* brown tone */
+.bg-brown{
+  background: #645858;
+  color:#ffffff;
+}
+.bg-coffee{
+  background:#4B371C;
+  color:#ffffff;
+}
+.bg-mocha{
+  background:#3C280D;
+  color:#ffffff;
+}
+.bg-peanut{
+  background:#795C34;
+  color:#ffffff;
+}
+.bg-wood{
+  background:#3F301D;
+  color:#ffffff;
+}
+.bg-caramel{
+  background:#65350F;
+  color:#ffffff;
+}
+.bg-umber{
+  background:#352315;
+  color:#ffffff;
+}
+.bg-tawny{
+  background:#80471C;
+  color:#ffffff;
+}
+.bg-cedar{
+  background:#4A3728;
+  color:#ffffff;
+}
+.bg-cinnamon{
+  background:#652A0E;
+  color:#ffffff;
+}
+.bg-penny{
+  background:#532915;
+  color:#ffffff;
+}
+.bg-walnut{
+  background:#432616;
+  color:#ffffff;
+}
+.bg-tortilla{
+  background:#9A7B4F;
+  color:#ffffff;
+}
+/* Black */
+.bg-dark{
+  background-color: #343A40 !important;
+  color:#ffffff !important;
+}
+
+.text-white{
+  color:#ffffff !important;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
+}
+
+.b-none{
+  border:none !important;
+}
